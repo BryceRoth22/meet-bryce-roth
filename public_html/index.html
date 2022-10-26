@@ -6,39 +6,55 @@
     <title>Bryce Roth</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
-<body>
+<body class="text-center">
 
-<div id = "Welcome" class = "container border border-dark">
+<div id = "Welcome" class = "container border border-dark border-5">
     <div class = "row">
-        <div class = "col col-lg-8">
+        <div class = "col col-lg-6">
             <p>Hello!  Welcome to my page.</p>
         </div>
-        <div class="col col-lg-4">
-            <img class="image-fluid" src="bryce-roth-photo.JPG" alt="BRoth">
+        <div class="col col-lg-6 my-5">
+            <img class="image-fluid rounded-circle border border-danger border-3" src="bryce-roth-picture.JPG" alt="BRoth">
         </div>
     </div>
 </div>
 <div id = "Skills" class="container bg-info">
     <div class="row">
-        <div class="col col-lg-2">
+        <div class="col col-lg-3">
             <h2>Skills</h2>
+        </div>
+        <div class="col col-lg-3">
+            <h5>Languages/Programs</h5>
+                <p>JavaScript</p>
+                <p>HTML</p>
+                <p>SQL</p>
+                <p>REACT</p>
+        </div>
+        <div class="col col-lg-2">
+            <h5>Management</h5>
+        </div>
+        <div class="col col-lg-2">
+            <h5>Certificates</h5>
+        </div>
+        <div class="col col-lg-2">
+            <h5>Other Skills</h5>
         </div>
     </div>
 </div>
 <div id = "Portfolio" class="container bg-warning">
     <div class="row">
-        <div class="col col-lg-2">
+        <div class="col col-lg-3">
             <h2>Portfolio</h2>
         </div>
     </div>
 </div>
 <div id = "Contact" class="container">
     <div class="row">
-        <div class="col col-lg-2">
+        <div class="col col-lg-3">
             <h2>Contact Me</h2>
         </div>
         <div class="col col-lg-10">
-            <form>
+            <form typeof="submit" method="get" class="contact-me">
                 <div class="form-group">
                     <label for="nameInput">Name</label>
                     <input type="text" class="form-control" id="nameInput" placeholder="Firstname Lastname">
