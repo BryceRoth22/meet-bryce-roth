@@ -1,0 +1,12 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+}
+footer {
+    background-color: cadetblue;
+    color: azure;
+}
+
+div[id="Greeting"] {
+    background-color: slategray;
+    color: azure;
+}

@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bryce Roth</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
-<body class="font-family-Ariel">
+<body>
 
-<div id="Welcome" class="container border border-dark border-5 bg-secondary">
-    <div class="row">
-        <div class="col col-lg-6 lead">
-            <p>Hello!  Welcome to my page.</p>
+<div id="Welcome" class="container border border-dark border-5">
+    <div id="Greeting" class="row">
+        <div class="col col-lg-6 lead text-center my-3">
+            <h5>Hello!  Welcome to my page.</h5>
+            <p></p>
         </div>
         <div class="col col-lg-6 my-5">
             <img class="image-fluid rounded-circle border border-danger border-3" src="bryce-roth-picture.JPG" alt="BRoth">
@@ -23,21 +25,37 @@
         <div class="col col-lg-3">
             <h2>Skills</h2>
         </div>
-        <div class="col col-lg-3">
-            <h5>Languages/Programs</h5>
-                <p>JavaScript</p>
-                <p>HTML</p>
-                <p>SQL</p>
-                <p>REACT</p>
-        </div>
-        <div class="col col-lg-2">
-            <h5>Management</h5>
-        </div>
-        <div class="col col-lg-2">
-            <h5>Certificates</h5>
-        </div>
-        <div class="col col-lg-2">
-            <h5>Other Skills</h5>
+        <div class="col col-lg-9">
+            <div class="row">
+                <div class="col col-lg-3">
+                    <h4>Languages & Programs</h4>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>SQL</li>
+                    <li>REACT</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                </div>
+                <div class="col col-lg-3">
+                    <h4>Other Programs</h4>
+                    <li>SAP</li>
+                    <li>Microsoft Windows</li>
+                    <li>Microsoft Office</li>
+                    <li>Google products</li>
+                    <li>GitHub</li>
+                    <li>Java</li>
+                </div>
+                <div class="col col-lg-3">
+                    <h4>Management Skills</h4>
+                    <li>Team management</li>
+                    <li>Budgeting</li>
+                    <li>Personnel growth</li>
+                </div>
+                <div class="col col-lg-3">
+                    <h4>Certificates</h4>
+                    <li>Working on Google Certificate</li>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -46,33 +64,45 @@
         <div class="col col-lg-3">
             <h2>Portfolio</h2>
         </div>
-    </div>
-</div>
-<div id="Contact" class="container bg-success">
-    <div class="row">
-        <div class="col col-lg-2">
-            <h2>Contact Me</h2>
+        <div class="col col-lg-3">
+            <h5>Project1</h5>
+
         </div>
-        <div class="col col-lg-6">
-            <form typeof="submit" method="get" class="contact-me">
-                <div class="form-group">
-                    <label for="nameInput">Name</label>
-                    <input type="text" class="form-control" id="nameInput" placeholder="Firstname Lastname">
-                </div>
-                <div class="form-group">
-                    <label for="emailInput">Email address</label>
-                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="messageInput">Message</label>
-                    <textarea class="form-control" id="messageInput" rows="3" placeholder="Type message here"></textarea>
-                </div>
-                <button type="submit" onsubmit="sendMessage" class="btn btn-primary">Submit</button>
-            </form>
+        <div class="col col-lg-3">
+            <h5>Project2</h5>
+        </div>
+        <div class="col col-lg-3">
+            <h5>Project3</h5>
         </div>
     </div>
 </div>
-<footer class="border border-red"></footer>
+<!--<div id="Contact" class="container bg-success">-->
+<!--    <div class="row">-->
+<!--        <div class="col col-lg-3">-->
+<!--            <h2>Contact Me</h2>-->
+<!--        </div>-->
+<!--        <div class="col col-lg-6">-->
+<!--            <form typeof="submit" method="get" class="contact-me">-->
+<!--                <div class="form-group">-->
+<!--                    <label for="nameInput">Name</label>-->
+<!--                    <input type="text" class="form-control" id="nameInput" placeholder="Firstname Lastname">-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="emailInput">Email address</label>-->
+<!--                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="messageInput">Message</label>-->
+<!--                    <textarea class="form-control" id="messageInput" rows="3" placeholder="Type message here"></textarea>-->
+<!--                </div>-->
+<!--                <button type="submit" onsubmit="sendMessage" class="btn btn-primary">Submit</button>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<footer class="container text-center">
+    <h5>Contact me at roth1116@gmail.com</h5>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="script.js"></script>
