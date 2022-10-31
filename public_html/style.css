@@ -1,12 +1,28 @@
 body {
     font-family: "Century Gothic", sans-serif;
+    color: azure;
 }
 footer {
-    background-color: cadetblue;
+    background-color: #739496;
     color: azure;
 }
 
 div[id="Greeting"] {
-    background-color: slategray;
-    color: azure;
+    background-color: #8c9cb0;
+}
+
+div[id="Skills"] {
+    background-color: #74849d;
+}
+
+div[id="Portfolio"] {
+    background-color: #73949f;
+}
+
+div[id="Contact"] {
+    background-color: #3e62d2;
+}
+
+button[id="submit"] {
+    background-color: #b4b0b0;
 }

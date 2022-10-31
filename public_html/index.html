@@ -9,18 +9,18 @@
 </head>
 <body>
 
-<div id="Welcome" class="container border border-dark border-5">
+<div id="Welcome" class="container border border-dark border-y-1 border-x-2">
     <div id="Greeting" class="row">
         <div class="col col-lg-6 lead text-center my-3">
             <h5>Hello!  Welcome to my page.</h5>
             <p></p>
         </div>
         <div class="col col-lg-6 my-5 text-center">
-            <img class="image-fluid rounded-circle border border-danger border-3" src="bryce-roth-picture.JPG" alt="BRoth">
+            <img class="image-fluid rounded-circle border border-warning border-3" src="bryce-roth-picture.JPG" alt="BRoth">
         </div>
     </div>
 </div>
-<div id = "Skills" class="container bg-info">
+<div id="Skills" class="container border border-dark border-y-1 border-x-2">
     <div class="row">
         <div class="col col-lg-3">
             <h2>Skills</h2>
@@ -28,25 +28,25 @@
         <div class="col col-lg-9">
             <div class="row">
                 <div class="col col-lg-3">
-                    <h4>Languages & Programs</h4>
+                    <h4>Tech</h4>
                     <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>SQL</li>
+                    <li>HTML5</li>
+                    <li>PostgreSQL</li>
                     <li>REACT</li>
                     <li>CSS</li>
                     <li>Git</li>
                 </div>
                 <div class="col col-lg-3">
-                    <h4>Other Programs</h4>
-                    <li>SAP</li>
-                    <li>Microsoft Windows</li>
-                    <li>Microsoft Office</li>
-                    <li>Google products</li>
+                    <h4>More Tech</h4>
+                    <li>Node.js</li>
+                    <li>TypeScript</li>
+                    <li>Bootstrap</li>
                     <li>GitHub</li>
                     <li>Java</li>
+                    <li>SAP</li>
                 </div>
                 <div class="col col-lg-3">
-                    <h4>Management Skills</h4>
+                    <h4>Soft</h4>
                     <li>Team management</li>
                     <li>Budgeting</li>
                     <li>Personnel growth</li>
@@ -59,7 +59,7 @@
         </div>
     </div>
 </div>
-<div id = "Portfolio" class="container bg-warning">
+<div id = "Portfolio" class="container border border-dark border-y-1 border-x-2">
     <div class="row">
         <div class="col col-lg-3">
             <h2>Portfolio</h2>
@@ -76,33 +76,39 @@
         </div>
     </div>
 </div>
-<!--<div id="Contact" class="container bg-success">-->
-<!--    <div class="row">-->
-<!--        <div class="col col-lg-3">-->
-<!--            <h2>Contact Me</h2>-->
-<!--        </div>-->
-<!--        <div class="col col-lg-6">-->
-<!--            <form typeof="submit" method="get" class="contact-me">-->
-<!--                <div class="form-group">-->
-<!--                    <label for="nameInput">Name</label>-->
-<!--                    <input type="text" class="form-control" id="nameInput" placeholder="Firstname Lastname">-->
-<!--                </div>-->
-<!--                <div class="form-group">-->
-<!--                    <label for="emailInput">Email address</label>-->
-<!--                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">-->
-<!--                </div>-->
-<!--                <div class="form-group">-->
-<!--                    <label for="messageInput">Message</label>-->
-<!--                    <textarea class="form-control" id="messageInput" rows="3" placeholder="Type message here"></textarea>-->
-<!--                </div>-->
-<!--                <button type="submit" onsubmit="sendMessage" class="btn btn-primary">Submit</button>-->
-<!--            </form>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-<footer class="container text-center">
+<div id="Contact" class="container border border-dark border-y-1 border-x-2">
+    <div class="row">
+        <div class="col col-lg-3">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="col col-lg-5">
+            <form typeof="submit" method="get" class="contact-me">
+                <div class="form-group">
+                    <label for="nameInput">Name</label>
+                    <input type="text" class="form-control" id="nameInput" placeholder="Firstname Lastname">
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email address</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="messageInput">Message</label>
+                    <textarea class="form-control" id="messageInput" rows="3" placeholder="Type message here"></textarea>
+                </div>
+                <button id="submit" type="submit" onsubmit="sendMessage" class="btn">Submit</button>
+            </form>
+        </div>
+        <div class="col col-lg-4 text-center">
+            <h5>You can also view my profile on LinkedIn.</h5>
+                <a href="https://linkedin.com/in/bryce-roth-6a172620"><img src="linkedin-icon.png" alt="linkedin icon"></a>
+
+        </div>
+    </div>
+</div>
+<footer class="container text-center border border-dark border-y-1 border-x-2">
     <h5>Contact me at roth1116@gmail.com</h5>
 </footer>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="script.js"></script>
