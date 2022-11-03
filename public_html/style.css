@@ -26,3 +26,8 @@ div[id="Contact"] {
 button[id="submit"] {
     background-color: #b4b0b0;
 }
+
+h4 {
+    color: darkblue;
+    font-weight: bold;
+}
