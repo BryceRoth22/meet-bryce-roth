@@ -27,6 +27,10 @@ button[id="submit"] {
     background-color: #b4b0b0;
 }
 
+h1 {
+    font-weight: bold;
+}
+
 h4 {
     color: darkblue;
     font-weight: bold;
